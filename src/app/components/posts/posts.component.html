@@ -1,0 +1,10 @@
+<div>
+    <h1>
+        Posts  
+    </h1>
+    
+    <button type="submit" class="btn btn-primary" (click)="getPosts()">Get Posts</button>
+    <div>
+        <ng2-smart-table [settings]="settings" [source]="posts"></ng2-smart-table>
+    </div>
+</div>
